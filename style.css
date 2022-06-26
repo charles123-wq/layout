@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(0, 0%, 95%) ;
+  margin: 100px;
+  padding: 50px;
+  font-size: 15px;
+}
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  width: 20%;
+  min-height: 40vh;
+  padding: 40px;
+  border-radius: 5px 0px 0px 5px;
+}
+.suvs{
+  background-color: hsl(184, 100%, 22%);
+  width: 20%;
+  min-height: 40vh;
+  padding: 40px;
+}
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  width: 20%;
+  min-height: 40vh;
+  padding: 40px;
+  border-radius: 0px 5px 5px 0px;
+}
+.btn{
+  margin:10px;
+  padding: 5px;
+  border-radius: 18px;
+  border-color: hsl(0, 0%, 95%);
+  background-color:hsl(0, 0%, 95%);
+  width: 100px;
+  color:hsl(31, 77%, 52%);
+}
+.btn-1{
+  background-color:hsl(0, 0%, 95%);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 18px;
+  border-color: hsl(0, 0%, 95%);
+  width: 100px;
+  color: hsl(184, 100%, 22%);
+}
+.btn-2{
+  background-color:hsl(0, 0%, 95%);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 25px;
+  border-color: hsl(0, 0%, 95%);
+  width: 100px;
+  color: hsl(179, 100%, 13%);
+}
+h1, p{
+  color: hsla(0, 0%, 100%, 0.75);
+}
+h1{
+  font-family: Big Shoulders Display;
+  font-weight: 700px;
+}
+paragraghs{
+  font-family: Lexend Deca;
+}
+@media only screen and (max-width:375px) {
+  .sedans{
+    width: 40%;
+  min-height: 1vh;
+  padding: 40px;
+  border-radius: 5px 0px 0px 5px;
+}
+.suvs{
+  width: 40%;
+  min-height: 1vh;
+  padding: 40px;
+}
+.luxury{
+  width: 40%;
+  min-height: 1vh;
+  padding: 40px;
+  border-radius: 0px 5px 5px 0px;
+} 
+}
+@media only screen and (max-width:1440px){
+  body{
+    background-color: hsl(0, 0%, 95%) ;
+    margin: 100px;
+    padding: 50px;
+    font-size: 15px;
+  }  
+  main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .sedans{
+    background-color: hsl(31, 77%, 52%);
+    width: 20%;
+    min-height: 40vh;
+    padding: 40px;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .suvs{
+    background-color: hsl(184, 100%, 22%);
+    width: 20%;
+    min-height: 40vh;
+    padding: 40px;
+  }
+  .luxury{
+    background-color: hsl(179, 100%, 13%);
+    width: 20%;
+    min-height: 40vh;
+    padding: 40px;
+    border-radius: 0px 5px 5px 0px;
+  }
+  }
