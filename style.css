@@ -77,3 +77,30 @@ nav{
   text-align: center;
   font-size: 40px;
 }
+@media screen and (max-height: 1440px){
+  main {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   }
+   .btn{
+     margin: 25px;
+     padding: 5px;
+   }
+   .btn-1{
+     margin: 25px;
+     padding: 5px;
+   } 
+   .btn-2{
+     margin: 10px;
+     padding: 5px;
+   }
+ }
+ @media screen and (max-height: 375px){
+  main {
+   width: 100%;
+   }
+   nav{
+    text-align: center;
+  }
+ }
